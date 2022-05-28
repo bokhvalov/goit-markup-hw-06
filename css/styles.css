@@ -609,8 +609,12 @@ FOOTER SECTION
   padding-bottom: 60px;
 }
 
-.footer-section div:not(:last-child) {
+.footer-section .container div:first-child {
   margin-right: 70px;
+}
+
+.footer-section div:last-child {
+  margin-left: auto;
 }
 
 .footer-section .logo,
@@ -756,8 +760,7 @@ address > .link {
   justify-content: center;
   align-items: center;
 
-  width: 30px;
-  height: 30px;
+  padding: 9px 9px 10px 10px;
 
   cursor: pointer;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -845,6 +848,10 @@ address > .link {
   color: rgba(117, 117, 117, 0.5);
   font-size: 14px;
   line-height: 1.14;
+}
+
+.agreement a {
+  color: var(--accent-collor);
 }
 
 .modal-form .agreement {
